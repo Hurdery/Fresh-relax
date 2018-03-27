@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MatchRightVC.h"
+#import "MatchCenterVC.h"
+#import "LLKeyValueStore.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[LLKeyValueStore shareStore] createDBWithTableName:@"match"];
+
+    MatchCenterVC * centerVC = [[MatchCenterVC alloc] init];
+    
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:centerVC];
+    [navigationController setRestorationIdentifier:@"centerVC"];
+    
+    
+    self.window.rootViewController = navigationController;
+    
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

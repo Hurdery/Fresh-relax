@@ -1,0 +1,108 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AJNotificationView (0.7)
+  - DOUAudioStreamer (0.2.15)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GVUserDefaults (1.0.2)
+  - IQKeyboardManager (4.0.10)
+  - JCore (1.1.6)
+  - JPush (3.0.5):
+    - JCore (~> 1.1.1)
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.12)
+  - Reachability (3.2)
+  - RTLabel (1.0.1)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - Shimmer (1.0.2)
+  - SVProgressHUD (2.2.2)
+  - TOWebViewController (2.2.6):
+    - TOWebViewController/Core (= 2.2.6)
+  - TOWebViewController/Core (2.2.6)
+  - UIAlertView+Blocks (0.9)
+  - UMengAnalytics (4.2.4)
+  - WSProgressHUD (1.1.1):
+    - Shimmer
+  - YTKNetwork (1.3.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AJNotificationView (= 0.7)
+  - DOUAudioStreamer
+  - FMDB (~> 2.7.2)
+  - GVUserDefaults
+  - IQKeyboardManager (= 4.0.10)
+  - JPush
+  - Mantle (= 1.5.5)
+  - Masonry (= 1.0.2)
+  - MBProgressHUD
+  - MJRefresh (= 3.1.12)
+  - Reachability (= 3.2)
+  - RTLabel (= 1.0.1)
+  - SDWebImage
+  - SVProgressHUD
+  - TOWebViewController (= 2.2.6)
+  - UIAlertView+Blocks (= 0.9)
+  - UMengAnalytics (= 4.2.4)
+  - WSProgressHUD (= 1.1.1)
+  - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AJNotificationView: fe9f2e3b806ab71e3705047ed243a283b7155731
+  DOUAudioStreamer: 14f217bab01b52171fc2bd7d96e1f8fdd50fce68
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: dd0b776998aa705a6242b947bf72e5a640387cfe
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RTLabel: 6005d07fef57b101097c4271f804daae3110cbca
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  TOWebViewController: a29908019f7e0e0f8eccfab8a1ee8dcdf4fc5aac
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  WSProgressHUD: 0ebb8dd846f7fb4715d42c87584456480cb7fbf0
+  YTKNetwork: a9fdf7968deefb06a58d988148558453005564c4
+
+PODFILE CHECKSUM: e96847911983c8e870bdee6768afdd145ccd0c62
+
+COCOAPODS: 1.3.1
